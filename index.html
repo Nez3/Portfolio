@@ -60,17 +60,17 @@
 						<header>
 							<h1>Hello, I'm Neha.<br /></h1>
 							<p style="font-size: large;">With a knack for storytelling through data, I empower decisions with data-driven insights, translating complex information into actionable strategies.</p>
-								<button type="button" class="btn btn-primary">Connect with me</button>
+								<button type="button" class="btn btn-primary" onclick="scrollToFooter()">Connect with me</button>
 						</header>
 					</div>
 					
 				</div>
 			</div>
-			<div id="wrapper">
+			<div id="wrapper" style="height: 100vh;">
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
-							<section>
+							<section style="height: fit-content;">
 								<h2>Get in touch</h2>
 								<form method="post" action="#">
 									<div class="fields">
@@ -116,6 +116,12 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				function scrollToFooter() {
+					var footer = document.getElementById('footer');
+					footer.scrollIntoView({ behavior: 'smooth' });
+				}
+			</script>
 
 	</body>
 </html>
