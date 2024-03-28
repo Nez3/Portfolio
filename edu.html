@@ -11,10 +11,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.vertical_dotted_line
+			{
+				border-left: 5px dotted black;
+				height: 430px;
+				padding-left: px;
+			} 
+			
+
+		</style>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
-			<div id="wrapper">
+			<div id="wrapper" style="height: 100vh;">
 
 				<!-- Header -->
 					<header id="header">
@@ -38,24 +48,59 @@
 						<h2>Menu</h2>
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="generic.html">Education</a></li>
-							<li><a href="generic.html">Work Experience</a></li>
-							<li><a href="generic.html">Projects</a></li>
-							<li><a href="elements.html">Leisure Corner</a></li>
+							<li><a href="edu.html">Education</a></li>
+							<li><a href="workex.html">Work Experience</a></li>
+							<li><a href="projects.html">Projects</a></li>
+							<li><a href="fun.html">Leisure Corner</a></li>
 						</ul>
 					</nav>
 
 				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-							<h1>Generic Page</h1>
-							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
-							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel venenatis mauris vehicula hendrerit.</p>
-							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+				<div id="main" style="display: flex; align-items: center;  ">
+					<div id="wrapper" style="padding-left: 15%;">
+						<div class="inner" style="padding-left: 20%;" >
+								<span class="image" style="display: inline-block; width: 200px; height: 200px; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; margin-top: 20px;">
+									<img src="images/bachelors.png" alt="" style="width: 100%; height: auto;">
+								</span>
+						</div>
+						<div class="inner" style="margin-top: 10px;">
+							<header>
+								<h1 style="margin-bottom: 20px;">Bachelor's Degree<br /></h1>
+								<p style="font-size: large; margin-bottom: 15px;"><b>University: </b> University of Mumbai</p>
+								<p style="font-size: large; margin-bottom: 15px;"><b>Major: </b> Information Technology</p>
+								<p style="font-size: large; margin-bottom: 15px;"><b>Batch: </b> 2019 - 2023</p>
+								<p style="font-size: large; margin-bottom: 15px;"><b>GPA: </b> 3.98</p>
+							</header>
 						</div>
 					</div>
+					<div id="wrapper" style="margin-left: 10%;" >
+						<div class="vertical_dotted_line"></div>
+					</div>
 
+					<div id="wrapper" style="padding-left: 10%;">
+						<div class="inner" style="padding-left: 15%;">
+
+								<span class="image" style="display: inline-block; width: 200px; height: 200px; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; margin-top: 20px;">
+									<img src="images/masters.png" alt="" style="width: 100%; height: auto;">
+								</span>
+
+						</div>
+						<div class="inner" style="margin-top: 10px;">
+							<header>
+								<h1 style="margin-bottom: 20px;">Master's Degree<br /></h1>
+								<p style="font-size: large; margin-bottom: 15px;"><b>University: </b> University of Arizona</p>
+								<p style="font-size: large; margin-bottom: 15px;"><b>Major: </b> Management Information Systems</p>
+								<p style="font-size: large; margin-bottom: 15px;"><b>Batch: </b> 2023 - 2024</p>
+								<p style="font-size: large; margin-bottom: 15px;"><b>GPA: </b> 3.79</p>
+							</header>
+						</div>
+					</div>
+					
+					
+				</div>
+			</div>
+			<div id="wrapper" style="height: 100vh;">
+				
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
